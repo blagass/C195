@@ -1,0 +1,49 @@
+.root{
+    /*-fx-background-color: linear-gradient(to bottom right, darkorange 20.2%, darkblue 108.92%);*/
+    -fx-background-color: #301630;
+    -fx-font-family: "Barlow Condensed";
+}
+
+#leftPane,#middlePane{
+    -fx-background-color: rgba(220, 220, 220, 0.40);
+    -fx-background-radius: 20;
+    -fx-effect: dropShadow(three-pass-box, rgba(0,0,0,0.3),10.0,0.0,0.0,10.0);
+    -fx-border-radius:20;
+    -fx-border-width: 4px;
+    -fx-border-color:linear-gradient(to bottom right, darkorange 20.2%, darkviolet 108.92%);
+    -fx-font-family: "Barlow Condensed";
+
+}
+
+#buttonPane{
+    -fx-background-color: rgba(200, 255, 200, 0.40);
+    -fx-background-radius: 5;
+    -fx-effect: dropShadow(three-pass-box, rgba(0,0,0,0.3),10.0,0.0,0.0,10.0);
+    -fx-border-radius:5;
+    -fx-border-width: 1px;
+    -fx-border-color:linear-gradient(to bottom right, darkorange 10.2%, darkviolet 98.92%);
+    -fx-font-family: "Barlow Condensed";
+
+}
+
+.table-view{
+    -fx-font-family: "Barlow Condensed";
+    -fx-background-radius: 0 0 16 16;
+    -fx-border-radius: 0 0 16 16;
+    -fx-border-color:transparent;
+    -fx-background-color: white;
+
+}
+
+.tab{
+    -fx-font-size:18;
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-background-radius: 3;
+    -fx-border-radius: 3;
+    -fx-font-family: "Barlow Condensed";
+}
+
+.button{
+    -fx-background-color: transparent;
+}

@@ -109,28 +109,6 @@
                   </Button>
                </children>
             </Group>
-            <Group layoutX="14.0" layoutY="141.0">
-               <children>
-                  <StackPane layoutX="4.099999904632568" prefHeight="34.0" prefWidth="80.0">
-                     <children>
-                        <Label prefHeight="27.0" prefWidth="50.0" text="Reports" textFill="WHITE" underline="true">
-                           <font>
-                              <Font name="Barlow Condensed SemiBold" size="13.0" />
-                           </font>
-                        </Label>
-                     </children>
-                  </StackPane>
-                  <Button layoutX="4.099999904632568" layoutY="34.0" mnemonicParsing="false" prefHeight="89.0" prefWidth="79.0">
-                     <graphic>
-                        <ImageView fitHeight="77.0" fitWidth="77.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@report.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                  </Button>
-               </children>
-            </Group>
          </children>
       </VBox>
    </left>
@@ -142,12 +120,12 @@
          <children>
             <VBox prefHeight="488.0" prefWidth="1037.0">
                <children>
-                  <Label prefHeight="39.0" prefWidth="121.0" text="Customers" textFill="WHITE">
+                  <Label prefHeight="43.0" prefWidth="191.0" text="Appointments" textFill="WHITE">
                      <font>
                         <Font name="Barlow Condensed Light" size="33.0" />
                      </font>
                   </Label>
-                  <HBox prefHeight="341.0" prefWidth="1028.0">
+                  <HBox prefHeight="317.0" prefWidth="1169.0">
                      <children>
                         <TabPane fx:id="customerTab" prefHeight="341.0" prefWidth="1007.0" tabClosingPolicy="UNAVAILABLE" tabMaxWidth="178.0">
                           <tabs>
@@ -165,7 +143,7 @@
                                     </AnchorPane>
                               </content>
                                  <content>
-                                    <AnchorPane prefHeight="284.0" prefWidth="894.0">
+                                    <AnchorPane prefHeight="284.0" prefWidth="1007.0">
                                        <children>
                                           <TableView prefHeight="281.0" prefWidth="1006.0">
                                              <columns>
@@ -218,10 +196,10 @@
                   </HBox>
                   <HBox>
                      <VBox.margin>
-                        <Insets right="10.0" top="10.0" />
+                        <Insets left="50.0" top="10.0" />
                      </VBox.margin>
                      <children>
-                        <Pane fx:id="buttonPane" prefHeight="59.0" prefWidth="282.0">
+                        <Pane fx:id="buttonPane" prefHeight="59.0" prefWidth="281.0">
                            <children>
                               <HBox layoutX="16.0" prefHeight="58.0" prefWidth="340.0">
                                  <children>
@@ -256,9 +234,6 @@
                                  </children>
                               </HBox>
                            </children>
-                           <HBox.margin>
-                              <Insets left="20.0" />
-                           </HBox.margin>
                         </Pane>
                      </children>
                   </HBox>
@@ -271,9 +246,9 @@
       </VBox>
    </center>
    <right>
-      <Pane prefHeight="517.0" prefWidth="205.0" BorderPane.alignment="CENTER" />
+      <Pane prefHeight="517.0" prefWidth="51.0" BorderPane.alignment="CENTER" />
    </right>
    <bottom>
-      <Pane fx:id="bottomPane" prefHeight="140.0" prefWidth="1400.0" BorderPane.alignment="CENTER" />
+      <Pane fx:id="bottomPane" prefHeight="111.0" prefWidth="1400.0" BorderPane.alignment="CENTER" />
    </bottom>
 </BorderPane>
