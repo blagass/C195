@@ -91,7 +91,7 @@
                <children>
                   <StackPane layoutX="4.099999904632568" prefHeight="34.0" prefWidth="80.0">
                      <children>
-                        <Label prefHeight="27.0" prefWidth="50.0" text="Customers" textFill="WHITE" underline="true">
+                        <Label prefHeight="27.0" prefWidth="70.0" text="Appointments" textFill="WHITE" underline="true">
                            <font>
                               <Font name="Barlow Condensed SemiBold" size="13.0" />
                            </font>
