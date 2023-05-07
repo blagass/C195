@@ -129,7 +129,7 @@
          <children>
             <VBox prefHeight="488.0" prefWidth="1037.0">
                <children>
-                  <Label prefHeight="43.0" prefWidth="160.0" text="Appointments" textFill="WHITE">
+                  <Label prefHeight="43.0" prefWidth="160.0" text="Customers" textFill="WHITE">
                      <font>
                         <Font name="Barlow Condensed Light" size="33.0" />
                      </font>
