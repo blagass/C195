@@ -78,7 +78,7 @@
                   </StackPane>
                   <Button layoutX="4.099999904632568" layoutY="34.0" mnemonicParsing="false" prefHeight="89.0" prefWidth="79.0">
                      <graphic>
-                        <ImageView fx:id="CustomersIcon" fitHeight="77.0" fitWidth="77.0" onMouseClicked="#toCustomers" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fitHeight="77.0" fitWidth="77.0" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@business.png" />
                            </image>
@@ -100,7 +100,7 @@
                   </StackPane>
                   <Button layoutX="4.099999904632568" layoutY="34.0" mnemonicParsing="false" prefHeight="89.0" prefWidth="79.0">
                      <graphic>
-                        <ImageView fx:id="appointmentsIcon" fitHeight="77.0" fitWidth="77.0" onMouseClicked="#toAppointments" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fitHeight="77.0" fitWidth="77.0" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@calendar.png" />
                            </image>
@@ -122,7 +122,11 @@
                   </StackPane>
                   <Button layoutX="4.099999904632568" layoutY="34.0" mnemonicParsing="false" prefHeight="89.0" prefWidth="79.0">
                      <graphic>
-                        <ImageView fx:id="reportsIcon" fitHeight="77.0" fitWidth="77.0" onMouseClicked="#toReports" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="77.0" fitWidth="77.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@reportimage.png" />
+                           </image>
+                        </ImageView>
                      </graphic>
                   </Button>
                </children>
@@ -138,7 +142,7 @@
          <children>
             <VBox prefHeight="488.0" prefWidth="1037.0">
                <children>
-                  <Label prefHeight="43.0" prefWidth="160.0" text="Appointments" textFill="WHITE">
+                  <Label prefHeight="39.0" prefWidth="121.0" text="Customers" textFill="WHITE">
                      <font>
                         <Font name="Barlow Condensed Light" size="33.0" />
                      </font>
