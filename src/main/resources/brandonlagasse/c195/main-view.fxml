@@ -122,11 +122,7 @@
                   </StackPane>
                   <Button layoutX="4.099999904632568" layoutY="34.0" mnemonicParsing="false" prefHeight="89.0" prefWidth="79.0">
                      <graphic>
-                        <ImageView fx:id="reportsIcon" fitHeight="77.0" fitWidth="77.0" onMouseClicked="#toReports" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@report.png" />
-                           </image>
-                        </ImageView>
+                        <ImageView fx:id="reportsIcon" fitHeight="77.0" fitWidth="77.0" onMouseClicked="#toReports" pickOnBounds="true" preserveRatio="true" />
                      </graphic>
                   </Button>
                </children>
