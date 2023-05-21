@@ -21,7 +21,7 @@
 <?import javafx.scene.paint.Stop?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1400.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1400.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="brandonlagasse.c195.controller.MainScreenController">
    <top>
       <HBox prefHeight="72.0" prefWidth="600.0" BorderPane.alignment="CENTER">
          <children>
@@ -76,7 +76,7 @@
                         </Label>
                      </children>
                   </StackPane>
-                  <Button layoutX="4.099999904632568" layoutY="34.0" mnemonicParsing="false" prefHeight="89.0" prefWidth="79.0">
+                  <Button fx:id="toCustomersButton" layoutX="4.099999904632568" layoutY="34.0" mnemonicParsing="false" onAction="#toCustomers" prefHeight="89.0" prefWidth="79.0">
                      <graphic>
                         <ImageView fitHeight="77.0" fitWidth="77.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -98,9 +98,9 @@
                         </Label>
                      </children>
                   </StackPane>
-                  <Button layoutX="4.099999904632568" layoutY="34.0" mnemonicParsing="false" prefHeight="89.0" prefWidth="79.0">
+                  <Button layoutX="4.099999904632568" layoutY="34.0" mnemonicParsing="false" onAction="#toAppointments" prefHeight="89.0" prefWidth="79.0">
                      <graphic>
-                        <ImageView fitHeight="77.0" fitWidth="77.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fitHeight="77.0" fitWidth="77.0" onMouseClicked="#toAppointments" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@calendar.png" />
                            </image>
@@ -122,7 +122,7 @@
                   </StackPane>
                   <Button layoutX="4.099999904632568" layoutY="34.0" mnemonicParsing="false" prefHeight="89.0" prefWidth="79.0">
                      <graphic>
-                        <ImageView fitHeight="77.0" fitWidth="77.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fitHeight="77.0" fitWidth="77.0" onMouseClicked="#toReports" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@reportimage.png" />
                            </image>
